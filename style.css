@@ -1,154 +1,49 @@
-/* Basic styling for text and elements */
+p {
+  color: rgb(0, 0, 0);
+}
+
 body {
-  font-family: "Permanent Marker", cursive;
-  font-weight: 400;
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
   font-style: normal;
-  background-color: #feffff;
-  margin: 0;
-  padding: 0;
+background-color: rgb(118, 0, 0);
 }
 
-/* Header styling */
 h1 {
-  color: aquamarine;
-  background-color: rgb(224, 118, 224);
-  text-align: center;
-  padding: 20px 0;
+  color: rgb(55, 5, 5);
+  background-color: rgb(127, 11, 11);
+border-radius: 15PX;
 }
 
-h2 {
-  color: rgb(201, 107, 0);
-  text-align: center;
+#lafDiv{
+  background-color: rgb(112, 10, 10);
+border-radius: 15PX;
 }
-
-/* Navigation bar styling */
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #ea1f8b;
-  text-align: center;
+  overflow: hidden;
+  background-color: #000000;
 }
 
-li.nav-li {
-  display: inline-block;
+li {
+  float: left;
 }
 
-li.nav-li a {
+li a {
   display: block;
-  color: white;
+  color: rgb(95, 86, 86);
+  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  text-align: center;
 }
 
-li.nav-li a:hover:not(.active) {
-  background-color: #f713be;
+li a:hover:not(.active) {
+  background-color: #9d1c1c;
 }
 
 .active {
-  background-color: hsl(300, 72%, 51%);
-}
-
-/* Paragraph text styling */
-p {
-  color: rgb(251, 37, 37);
-  padding: 0 20px;
-}
-
-ol {
-  color: purple;
-  padding: 0 20px;
-}
-
-h4 {
-  text-align: center;
-}
-
-/* Styling for content boxes */
-#bir, #shorthair {
-  border-radius: 40px;
-  padding: 20px;
-  margin: 20px auto;
-}
-
-#bir {
-  background-color: pink;
-}
-
-#shorthair {
-  background-color: salmon;
-}
-
-/* Styling for images */
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin: 20px auto;
-}
-
-/* Iframe styling for videos */
-iframe {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin: 20px auto;
-  border: 0;
-}
-
-/* Mobile-first styling */
-@media (max-width: 768px) {
-  /* Stack navigation items vertically on smaller screens */
-  li.nav-li {
-    display: block;
-    width: 100%;
-  }
-
-  /* Adjust the font size for headings on smaller screens */
-  h1, h2 {
-    font-size: 24px;
-    padding: 15px 0;
-  }
-
-  /* Make images smaller for mobile */
-  img {
-    max-width: 90%;
-  }
-
-  /* Adjust iframe size for smaller screens */
-  iframe {
-    width: 90%;
-    height: auto;
-  }
-
-  /* Center the content of the page */
-  .content {
-    text-align: center;
-  }
-
-  /* Adjust padding for paragraphs and lists */
-  p, ol {
-    padding: 0 15px;
-  }
-}
-
-/* Desktop and larger devices (above 768px) */
-@media (min-width: 768px) {
-  /* Make sure navigation bar items are aligned horizontally */
-  li.nav-li {
-    float: left;
-    width: auto;
-  }
-
-  /* Make images fit well on larger screens */
-  img {
-    width: 40%;
-  }
-
-  /* Ensure iframe is large enough on desktop */
-  iframe {
-    width: 560px;
-    height: 315px;
-  }
+  background-color: #454545;
 }
